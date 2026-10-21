@@ -1,0 +1,13 @@
+Experiment 4 — Data processing pipeline
+
+Command:
+python experiment-04-data-pipeline/pipeline.py
+
+Captured output:
+Input rows: 10
+Training rows: 8
+Test rows: 2
+Processed feature count: 2
+Saved test partition: data\processed.csv
+
+The script created the synthetic input data on its first run. Preprocessing was fitted on the training split and applied to the test split.
