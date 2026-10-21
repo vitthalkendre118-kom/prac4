@@ -27,14 +27,4 @@ The script uses a small generated sample dataset so the basic workflow can be te
 ## Observed result
 The captured run processed 10 rows into 8 training rows and 2 test rows, with 2 engineered features. See [`OUTPUT.txt`](./OUTPUT.txt) for the recorded command output.
 
-## Viva questions
-1. What problem does this tool or workflow solve?
-2. What is one limitation or failure mode?
-3. How can the result be reproduced?
 
-
-## Concept summary
-The demonstration script validates input, splits rows, fits preprocessing on training data, and writes a processed test partition.
-
-## Outcome summary
-A runnable data pipeline is included. Output row counts are printed at runtime and depend on the selected input data.
